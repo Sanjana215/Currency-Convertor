@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:#8ABFA3;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.amount{
+    margin-top: 20px;
+}
+.input{
+    width:320px;
+    height:40px;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+.dropdown{
+    margin-top: 20px;
+    display: flex;
+}
+.from{
+    display:flex;
+}
+.to{
+    display:flex;
+}
+.from-icon{
+
+border-radius: 10px;
+height: 35px;
+display: flex;
+margin: 10px;
+
+}
+.img-from{
+    height: 30px;
+    width:30px;
+
+}
+.select{
+    height: 20px;
+    width: 60px;
+    margin-top: 5px;
+   
+}
+.to-icon{
+    
+border-radius: 10px;
+height: 35px;
+display: flex;
+margin: 10px;
+
+}
+.img-to{
+    height: 30px;
+    width:30px;
+}
+.middle-icon{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.exchange{
+    margin-top: 20px;
+    width:320px;
+    height:40px;
+    background-color:#EDDFE0;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+@keyframes button{
+    from{background-color: #EDDFE0;}
+    to{background-color: #7C93C3;}
+}
+.exchange:hover{
+    animation: button 2ms forwards; 
+}
+
